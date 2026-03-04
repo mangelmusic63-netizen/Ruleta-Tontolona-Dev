@@ -1,0 +1,22 @@
+; Engine configuration file.
+; It's best edited using the editor and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section]
+;   param=value
+
+config_version=4
+
+[application]
+
+config/name="Ruleta Tontolona"
+run/main_scene="res://scenes/main.tscn"
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
